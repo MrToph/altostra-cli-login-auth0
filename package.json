@@ -11,7 +11,7 @@
     "compile": "tsc",
     "build": "rimraf lib && tsc",
     "test": "ts-node test/manual.test.ts",
-    "prepublishOnly": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "altostra",
